@@ -1,0 +1,49 @@
+.app-container {
+  display: flex;
+}
+.content {
+  width: 100%;
+}
+.sidebar {
+  height: 800px;
+}
+.post-card{
+  margin: 20px 50px;
+  min-width: 30rem;
+}
+.hashtag{
+  margin: 0px 30px;
+}
+.create-post {
+  
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 50px;
+}
+.welcome-message {
+  margin: 100px,0;
+}
+.this {
+  width: 50%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  background-color: aqua;
+  margin: 20px;
+}
+/* src/App.css */
+/* src/components/Routes.css */
+.routes-container {
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 50%;
+}
+my {
+  background-color: rgb(21, 141, 215);
+  margin-bottom: 0px;
+}
+
+
+
