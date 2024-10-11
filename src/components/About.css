@@ -1,19 +1,12 @@
-/* About.css */
-
-/* General body styles */
-
-
-/* Container styles */
-.container {
-    width: 100%;
-    height: 100%;
-    margin :20px;
+.about-container {
+    padding: 20px;
+    background-color: #f8f9fa; /* Light background for contrast */
 }
 
-/* iFrame styles */
-iframe {
-    border: 0;
-    width: 600px;
-    height: 450px;
+h1, h3 {
+    color: #343a40; /* Dark text for headings */
 }
 
+p {
+    color: #555; /* Slightly lighter text for paragraphs */
+}
