@@ -9,7 +9,7 @@ import PostListProvider from './store/post-list-store';
 import About from './components/About';
 import Home from './components/Home';
 import Routes from './components/Routes';
-
+import Login1 from './components/login1';
 
 
 function App() {
@@ -24,6 +24,7 @@ function App() {
                 {selectedTab === "About" && <About/>}
                 {selectedTab === "Home" && <Home />}
                 {selectedTab === "Routes" && <Routes />}
+                {selectedTab==="Login" && <Login1></Login1>}
               
                 <Footer />
             </div>
